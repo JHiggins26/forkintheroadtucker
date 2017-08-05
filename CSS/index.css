@@ -1,0 +1,408 @@
+body {
+    padding-top: 0px;
+    font-family: Lucida Grande, Open-sans;
+    font-weight: 300;
+    font-size: 2em;
+    background-color: white;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    color: ;
+}
+
+.nav > li > a {
+    font-size: .5em;
+    
+}
+
+.nav > li > a:hover{
+    text-decoration: none;
+}
+
+
+
+/*Collapse @ earlier pixel*/
+@media (max-width: 991px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+      margin-top: 15px;
+      float: right;
+      width: 50px;
+      height: 50px;
+/*      background-color: #f30001;*/
+      border-radius: 0px;
+      border: solid 0px #f30001;
+      z-index: 1000;
+  }
+    
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  .navbar-toggle .icon-bar {
+      display: block;
+      width: 32px;
+      height: 5px;
+      margin-top: 1px;
+      margin-bottom: 7px;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+
+header .navbar {
+    padding: 4px 0;
+    z-index: 16;
+}
+
+
+header .navbar-default {
+    background-color: transparent; 
+    padding-top: 10px;
+}
+
+header .navbar-default .navbar-nav a {
+    margin-left: 85px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+    font-size: .9em;
+}
+
+header .navbar-default .navbar-nav a:hover, header .navbar-default .navbar-nav a:focus {
+    background-color: #1252FF;
+    color: #ffffff;
+}
+
+header .navbar-default .navbar-nav li:hover > a {
+    background-color: #1252FF;
+    color: #ffffff;
+}
+
+
+header .navbar-default .navbar-nav .dropdown-content a {
+    color: #135EBA;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+header .navbar-default .navbar-nav .dropdown-content a:hover {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+    height: 70px;
+    margin-left: 0px;
+    opacity: .9;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+ 
+
+/* Dropdown Content */
+@media (min-width: 1199px) {
+    .dropdown-content {
+        margin-left: 0px;
+        margin-top: 0.5px;
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 245px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        overflow: hidden;
+        padding-top: 10px;
+    }
+}
+
+/* Dropdown Content */
+@media (max-width: 1199px) {
+    .dropdown-content {
+        margin-left: -50px;
+        margin-top: 0.5px;
+        display: none;
+        position: absolute;
+        background-color: #ffffff; 
+        min-width: 245px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        overflow: hidden;
+        padding-top: 10px;
+    }
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-size: .5em;
+    text-align: ;
+    margin-left: -50px;
+    color: #166ED9;
+    text-decoration: underline;
+    display: block;
+    padding-top: 0px;
+    font-weight: bold;
+    
+}
+
+.dropdown-content a:hover {
+    color: #166ED9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/*NAVIGATION MENU*/
+
+.wood-grain-background {
+    background-image: url(../IMAGES/Wood-Grain-Background.jpg);
+    height: 420px;
+}
+
+.wood-grain-spotlight-background {
+    background-image: url(../IMAGES/Wood-Grain-Spotlight-Background.png);
+    height: 420px;
+    margin-top: -10px;
+}
+
+.abstract-design-left {
+    float: left;
+}
+
+.abstract-design-right {
+    float: right;
+}
+
+.company-logo {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.road-logo {
+    position: absolute;
+    width: 600px;
+    height: 260px;
+    margin: 0 auto;
+    display: block;
+}
+
+.nav-background-banner {
+   
+    background-image: url(../IMAGES/Banner-Ribbon.png);
+    width: 1000px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+
+
+
+/*MEDIUM SCALE (USE WHEN NEEDED)*/
+@media (max-width: 1199px) {
+    .nav-background-banner {
+   
+        margin-right: -45px;
+    }
+    
+    
+   
+}
+
+
+
+
+
+
+/*TABLET / MOBILE*/
+@media (max-width: 991px) {
+    
+ 
+    .navbar {
+        border-radius: 0;
+        border: 0;
+        height: 56px;
+        margin-top: 0px;
+    }
+    
+    header .navbar-default .navbar-nav a {
+        margin-left: 10px;
+        color: #135EBA;
+        padding-top: 15px;
+        font-weight: bold;
+    }
+    
+    header .navbar-default .navbar-nav a:hover {
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+    }
+    
+    header .navbar-default .navbar-nav li:hover > a {
+    background-color: #ffffff;
+    color: black;
+}
+    
+    .navbar-collapse {
+      float: right;
+      margin-top: 3px;
+      padding-right: px;
+      padding-left: px; 
+      padding-bottom: 5px;
+      overflow:hidden;
+      background-color: #ffffff; 
+      height: auto;   
+      border: px solid #D9D6CF;
+    }
+    
+    .dropdown-content { 
+        
+        background-color: ;
+        margin-left: 10px;
+        margin-top: 0px;
+
+    }
+    
+    .dropdown-content a {
+/*        display: none;*/
+    }
+    
+    .wood-grain-background {
+        height: 250px;
+    }
+    
+    .company-logo {
+        position: relative;
+        width: 375px;
+        height: 270px;
+        padding-top: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .road-logo {
+        position: absolute;
+        width: 376px;
+        height: 240px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    
+    
+  
+    
+
+    
+  
+}
+
+
+
+
+
+/*MOBILE ONLY*/
+
+@media (max-width: 767px) {
+    
+    .dropdown-content { 
+       position: relative; 
+    }
+    
+    .company-logo {
+        width: 300px;
+        
+    }
+
+    .road-logo {
+        width: 300px;
+    }
+    
+    
+}
+
+/*
+@media (max-width: 500px) {
+   
+
+}
+
+@media (max-width: 450px) {
+   
+}
+
+@media (max-width: 410px) {
+   
+}*/
