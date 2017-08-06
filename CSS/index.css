@@ -6,22 +6,6 @@ body {
 
 .body-backdrop {
     background-image: url(../IMAGES/Wood-Grain-Background.jpg);
-    background-repeat: ;
-    
-
-/*
-    background-image: url(../IMAGES/Texure2.jpg);
-    background-repeat: ;
-    background-size:cover;
-*/
-    
-}
-
-.body-container {
-    margin-top: -35px;
-    max-width: 1110px;
-    margin-left: 30px;
-    background-color: #F7F7F7;
 }
 
 .affix {
@@ -248,10 +232,7 @@ header .navbar-default .navbar-nav .dropdown-content a:hover {
     .nav-background-banner {
         margin-right: -45px;
     }
-    
-    .body-container {
-        max-width: 910px;
-    }
+
 }
 
 
@@ -314,10 +295,6 @@ header .navbar-default .navbar-nav .dropdown-content a:hover {
         display: block;
     }
     
-    .body-container {
-        margin-top: 0px;
-        margin-left: 0px;
-    }
     
     
     
