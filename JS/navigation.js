@@ -7,3 +7,6 @@ $('body').on('click', '.openBtn', function() {
 $('body').on('click', '.closeBtn', function() {
     document.getElementById("myNav").style.width = "0%";
 });
+
+
+
