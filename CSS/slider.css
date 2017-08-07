@@ -15,9 +15,9 @@
   width:400%;
   height:100%;
   position:relative;
-  -webkit-animation:slide 35s infinite;
-  -moz-animation:slide 35s infinite;
-  animation:slide 35s infinite;
+  -webkit-animation:slide 30s infinite;
+  -moz-animation:slide 30s infinite;
+  animation:slide 30s infinite;
 }
 .slider{
   width:25%;
@@ -63,9 +63,9 @@
   float:left;
   position:relative;
   top:300px;
-  -webkit-animation:content-s 8.8s infinite;
-  -moz-animation:content-s 8.8s infinite;
-  animation:content-s 8.8s infinite;
+  -webkit-animation:content-s 7.5s infinite;
+  -moz-animation:content-s 7.5s infinite;
+  animation:content-s 7.5s infinite;
 }
 .content-txt h1{
   font-family:Arial;
@@ -118,9 +118,9 @@
   border-radius:50%;
   background:#f39c12;
   position:relative;
-  -webkit-animation:on 35s infinite;
-  -moz-animation:on 35s infinite;
-  animation:on 35s infinite;
+  -webkit-animation:on 30s infinite;
+  -moz-animation:on 30s infinite;
+  animation:on 30s infinite;
 }
 
 /* Animation */
