@@ -1,0 +1,134 @@
+/*Footer*/
+.wood-grain-background-BW {
+    background-image: url(../IMAGES/Wood-Grain-Background-BW.jpg);
+}
+
+.wood-grain-background-Dark-BW {
+    background-image: url(../IMAGES/Wood-Grain-Background-Dark-BW.jpg);
+}
+
+.footer-section {
+    height: auto; 
+}
+
+.footer-mini-title {
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: ;
+    color: #F5F5F5;
+    margin-left: 12%;
+}
+
+.footer-service-list a{
+    font-size: .7em;
+    color: #F5F5F5;
+    list-style: none;
+    text-align: left;
+}
+
+.footer-OR {
+    color: #F5F5F5;
+    list-style:none; 
+    margin-left:30px; 
+    font-size:0.7em;
+}
+
+.footer-service-list a:hover{
+    font-size: .7em;
+    list-style: none;
+    text-align: left;
+    color: #F5F5F5;
+    text-decoration: underline;
+}
+
+.footer-nav {
+    text-align: center; 
+}
+
+.footer-nav a{
+    display: inline-block;
+    font-size: .7em;
+    color: #F5F5F5;
+    text-decoration: none;
+    list-style: none;
+    padding-left: px;
+    padding-right: 10px;
+}
+
+.footer-nav a:hover {
+    display: inline-block;
+    font-size: .7em;
+    color: #F5F5F5;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-img-logo {
+    width:400px; height:200px;
+}
+
+
+.content-rights {
+    color: #F5F5F5;
+    margin-top: 25px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+
+/*TABLET / MOBILE*/
+@media (max-width: 991px) {
+    
+    /*Footer*/
+    
+    .footer-mini-title {
+        font-size: 0.9em;
+        text-align: ;
+        color: #F5F5F5;
+        margin-left: 18%;
+    }
+    
+    .footer-img-logo {
+        width:300px; height:200px;
+    }
+    
+    .content-rights {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+/*MOBILE ONLY*/
+
+@media (max-width: 767px) {
+    
+    
+    /*Footer*/
+    .footer-mini-title {
+        font-size: 0.9em;
+        text-align: ;
+        color: #F5F5F5;
+        margin-left: 5%;
+    }
+    
+    .footer-dir {
+        text-align: center;
+    }
+    
+    .footer-service-list a  {
+        text-align: center;   
+    }
+    
+    .footer-service-list a:hover  {
+        text-align: center;   
+    }
+    
+    .footer-OR { 
+        margin-left:0px; 
+    }
+}
