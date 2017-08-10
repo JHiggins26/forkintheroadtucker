@@ -88,7 +88,7 @@ header .navbar-default .navbar-nav .dropdown-content a {
 
 header .navbar-default .navbar-nav .dropdown-content a:hover {
     background-color: #a62b2b;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -125,23 +125,6 @@ header .navbar-default .navbar-nav .dropdown-content a:hover {
     background-size: 100% 100%;
 }
 
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    font-size: .5em;
-    text-align: ;
-    margin-left: 0px;
-    color: #166ED9;
-    text-decoration: underline;
-    display: block;
-    padding-top: 0px;
-    font-weight: bold;
-    
-}
-
-.dropdown-content a:hover {
-    color: #166ED9;
-}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -219,9 +202,41 @@ header .navbar-default .navbar-nav .dropdown-content a:hover {
 }
 
 .dropdown-info:hover {
-    color: #000000 !important;
+    color: #000080 !important;
 }
 
+
+/*Under Carousel Body*/
+
+.border-pattern-top {
+    background-image: url("../IMAGES/Border-Pattern1.jpg");
+    margin-top:px;
+    height: 10px;
+    background-repeat: repeat-x;
+}
+
+.border-pattern-bottom {
+    background-image: url("../IMAGES/Border-Pattern1.jpg");
+    margin-top:17px;
+    height: 10px;
+    background-repeat: repeat-x;
+}
+
+.fork-title {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    font-family:cursive
+}
+
+.dishes-title {
+    text-align: center;
+    font-weight: bold;
+    color: #a62b2b;
+    font-size: 2em;
+    font-family: sans-serif;
+}
 
 
 
@@ -293,6 +308,10 @@ header .navbar-default .navbar-nav .dropdown-content a:hover {
         height: 240px;
         margin: 0 auto;
         display: block;
+    }
+    
+    .border-pattern-bottom {
+        margin-top:52px;
     }
     
  

@@ -59,7 +59,7 @@
     display: inline-block;
     font-size: .7em;
     color: #F5F5F5;
-    text-decoration: none;
+    text-decoration: underline;
     list-style: none;
 }
 
@@ -73,6 +73,11 @@
     margin-top: 25px;
     font-size: 0.7em;
     text-align: center;
+}
+
+.content-rights a:hover {
+    color: #F5F5F5;
+    text-decoration: none;
 }
 
 
